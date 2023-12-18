@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const RegisterForm = () => {
   return (
-    <div className="bg-white p-8 rounded flex items-center">
+    <div className="bg-white p-8 rounded mx-auto flex items-center align-middle justify-center w-[500px] h-96">
       <div className="mr-8">
         <Image src={loginImage} alt="Login" className="w-200 object-cover" />
       </div>
