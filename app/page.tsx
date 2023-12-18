@@ -20,7 +20,7 @@ const page = () => {
         <Image src="/Group20.svg" alt="Mi SVG" width={200} height={200} />
       </div>
       <div className="flex flex-col align-middle justify-center items-center mt-20">
-        <Link href="/sign-in">
+        <Link href="/singleplayer">
           <Button
             color="default"
             variant="shadow"

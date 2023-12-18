@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const LoginForm = () => {
   return (
-    <div className="bg-white p-8 rounded  flex items-center align-middle justify-center">
+    <div className="bg-white p-8 rounded mx-auto flex items-center align-middle justify-center w-[500px] h-80">
       <div className="mr-8">
         <Image src={loginImage} alt="Login" className="w-200 object-cover" />
       </div>
